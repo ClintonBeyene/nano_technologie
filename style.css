@@ -1,0 +1,182 @@
+* 
+{
+      margin: 0;
+      padding: 0;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(nanotechnology.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    margin-left: 40%;
+    list-style: none;
+    margin-bottom: 25%;
+}
+
+.main-nav li 
+{
+    display:inline-block;
+}
+.main-nav li a
+{
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+/*---Body---*/
+#Body{
+    width: 100%;
+    padding: 70px 0;
+}
+.body-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.body{
+    flex-basis: 50%;
+}
+.body-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.body-img img{
+    width: 70%;
+}
+.table {
+    margin-top: -100%;
+    margin-bottom: 60%;
+    text-align: center;
+    
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dex9.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 60px;
+    display: none;
+}
+.inputtext{
+    width: 50%;
+    height: 65px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    font size: 20px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+.inputmessage{
+    width: 50%;
+    height: 65px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+}
+.marign{
+    margin-top: -20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    color: white;
+}
+.hate
+{
+    margin-left: 40%;
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+.hate li 
+{
+    display:inline-block;
+}
+.hate li a
+{
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+}
+
+.hate li.active a
+{
+    border: 1px solid white;
+}
+.hate li a:hover
+{
+    border: 1px solid white;
+}
+.love
+{
+    margin-left: 40%;
+    list-style: none;
+    margin-bottom: -10%;
+}
+
+.love li 
+{
+    display:inline-block;
+}
+.love li a
+{
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+}
+
+.love li.active a
+{
+    border: 1px solid white;
+}
+.love li a:hover
+{
+    border: 1px solid white;
+}
